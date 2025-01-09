@@ -1,0 +1,29 @@
+*{
+    margin:0;
+    font-family: arial;
+    border:border-box;
+}
+#image{
+    height:950px;
+    width: 100%;
+    background-image: url(tic.jpg);
+    background-size: cover;
+
+}
+.tic {
+ color:white;
+ font-size: 10em;
+ display: flex;
+ justify-content: center;
+ text-shadow: 10px 10px black;
+}
+#click{
+    height: 100px;
+    width:200px;
+    border-radius: 50%;
+   position: absolute;
+   top:80%;
+   left:45%;
+   background: linear-gradient(yellow,#880000 70%);
+   font-size: 30px;
+}
